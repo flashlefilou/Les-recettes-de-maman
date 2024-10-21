@@ -1,0 +1,317 @@
+/* Réinitialisation du style par défaut */
+* {
+    /* Enlève la marge par défaut des éléments */
+    margin: 0px;
+}
+
+/* Style du corps de la page */
+body {
+    font-family: "Helvetica Now Text",Helvetica,Arial,sans-serif;
+    color: black;
+    max-width:100%;
+    background-image:url('../img/painted-concrete-background.jpg');
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    position:relative;
+    min-height:100vh;
+}
+
+
+
+/* Style du menu */
+div#menu {
+    /* Hauteur fixe du menu à 50px */
+    height: 50px;
+
+    /* Fond blanc pour le menu */
+
+    /* Utilise le modèle flexbox pour organiser les éléments du menu */
+    display: flex;
+
+    /* Espace entre les éléments du menu (20% de l'espace) */
+    gap: 20%;
+
+    /* Centre les éléments verticalement dans le menu */
+    align-items: center;
+
+    border:2px solid #9efd38;
+    border-radius: 5px;
+
+    margin:5px;
+    
+}
+
+/* Style pour les liens dans le menu */
+
+.menu-lien {
+    /* Enlève la sous-ligne des liens */
+    text-decoration: none;
+
+/* Couleur verte citron des liens */
+    color: #9efd38;
+
+/* Texte en gras */
+    font-weight: 900;
+
+/* Taille du texte à 100% (peut être ajustée) */
+    font-size: 100%;
+
+/* Alignement vertical du texte au centre de la ligne */
+    vertical-align: middle;
+
+/* Utilisation de la police Helvetica */
+    font-family: "Helvetica Now Text Medium",Helvetica,Arial,sans-serif;
+}
+
+.menu-lien:hover{
+    color: #9ecc70;
+}
+
+/* Style pour l'image affichée dans le menu */
+IMG.logopetit {
+    /* Bloque l'image pour qu'elle prenne l'espace défini */
+    display: block;
+
+    /* Hauteur de l'image ajustée à 100% de la hauteur du menu (50px) */
+    height: 100%;
+
+    /* Limite maximale de la hauteur pour qu'elle ne dépasse pas du menu */
+    max-height: 50px;
+
+    /* Ajuste les marges à gauche et à droite pour bien placer l'image */
+    margin-left: 0;
+    margin-right: 0;
+
+    /* Garde les proportions de l'image */
+    width: auto; 
+
+    /* Garde les proportions de l'image lors de l'ajustement de la taille */
+    object-fit: contain;
+}
+
+/* Style pour la bannière de texte */
+div#banner {
+    /* Fixe la hauteur de la bannière à 300px*/
+    height: 200px;
+
+    font-family: 'Lobster';font-size: 22px;
+
+    /* Change la couleur du texte en vert */
+    color:White;
+
+    background-color:transparent;
+
+
+    /* Active flexbox pour organiser les éléments */
+    display: flex;
+
+    /* Centre les éléments horizontalement */
+    justify-content: center;
+
+    /* Centre les éléments verticalement */
+    align-items: center;
+
+    /* Texte en gras */
+    font-weight: 900;
+
+    /* Texte en petites majuscules */
+    font-variant: small-caps;
+
+    
+    
+}
+
+/* Style pour les paragraphes */
+p {
+    /* Centre le texte horizontalement */
+    text-align: center;
+
+    /* Taille du texte */
+    font-size: 40px;
+}
+
+div#bloc{
+    max-width:100%;
+    margin: 40px;
+    margin-bottom:50px;
+}
+
+espace{
+    font-size:large;
+    font-size:40px;
+    Opacity:0;
+}
+
+
+
+div#blockat{
+    /* dimentions */
+    height: 100px;
+    /* texte */
+    display:flex;
+    justify-content: center;
+    box-sizing: border-box;
+    align-items:center;
+    float:none;
+    font-weight: 700;
+    font-size:30px;
+
+    /* couleur */
+    background-color:rgba(255, 0, 0, 0.527);
+
+
+    /* bordure */
+    border:2px solid #303030;
+    border-radius: 5px;
+    margin:2px 2px 25px 0px;
+}
+
+div#blocleft{
+    /* dimentions */
+    width: 30%;
+    height: 500px;
+    /*             */
+    float:left;
+    text-align: justify;
+    box-sizing: border-box;
+    text-align:left;
+    padding: 30px;
+    font-size:30px;
+
+    /* couleur */
+    color:white;
+    background-color:rgba(0, 0, 0, 0.527);
+    opacity:0.6;
+
+    /* bordure */
+    border:2px solid #303030;
+    border-radius: 5px;
+    margin:2px 2px 2px 1px;
+}
+
+.b {
+    text-decoration: none;
+    color: #9efd38;
+    font-weight: 900;
+
+    /* Taille du texte à 100% (peut être ajustée) */
+    font-size: 100%;
+
+    /* Alignement vertical du texte au centre de la ligne */
+    vertical-align: middle;
+
+    /* Utilisation de la police Helvetica */
+    font-family: "Helvetica Now Text Medium",Helvetica,Arial,sans-serif;
+}
+
+.Image {
+    height:100%;
+    width:100%;
+}
+
+div#blocright{
+    /* dimentions */
+    width: 69.6%;
+    height: 500px;
+    /* texte */
+    float:left;
+    text-align: justify;
+    box-sizing: border-box;
+    text-align:left;
+    padding: 30px;
+    font-size:30px;
+
+    /* couleur */
+    color:black;
+    background-color:whitesmoke;
+    opacity:0.6;
+    
+    /* bordure */
+    border:2px solid #303030;
+    border-radius: 5px;
+    margin:2px 2px 2px 1px;
+}
+
+div#bloc2{
+    max-width:100%;
+    height:500px;
+
+    /* bordure */
+    margin:40px;
+}
+
+div#pagination{
+    margin:auto;
+    width:15%;
+    height:60px;
+    align-content:center;
+    text-align:center;
+    background-color:black;
+    color:white;
+    font-size:25px;
+
+    /* Bordure */
+    border:2px solid white;
+    border-radius: 25px;
+}
+
+.pagination {
+    /* Enlève la sous-ligne des liens */
+    text-decoration: none;
+
+    /* Couleur verte citron des liens */
+    color: #ffffff;
+
+    /* Texte en gras */
+    font-weight: 600;
+
+    /* Taille du texte à 100% (peut être ajustée) */
+    font-size: 100%;
+
+    /* Utilisation de la police Helvetica */
+    font-family: "Helvetica Now Text Medium",Helvetica,Arial,sans-serif;
+}
+
+.pagination-2 {
+    /* Enlève la sous-ligne des liens */
+    text-decoration: none;
+
+/* Couleur verte citron des liens */
+    color: grey;
+
+/* Taille du texte à 100% (peut être ajustée) */
+    font-size: 100%;
+
+/* Utilisation de la police Helvetica */
+    font-family: "Helvetica Now Text Medium",Helvetica,Arial,sans-serif;
+}
+
+.pagination-2:hover{
+    opacity:0.7;
+}
+
+
+div#footer{
+    width:100%;
+    float:left;
+    background-color:rgba(0, 0, 0, 0.527);
+    bottom:0;
+    align-content:center;
+    vertical-align: middle;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top:40px;
+    /* Etape 5 */
+    font-style: italic;
+    color:greenyellow;
+}
+.etoile{
+    display:inline;
+    float:right;
+    height: 100%;
+    object-fit: contain;
+}
